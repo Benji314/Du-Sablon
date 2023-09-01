@@ -63,7 +63,7 @@ nav ul {
     margin: 0;
 }
 
-.discover:hover{
+.discover:hover {
     color: black;
 }
 
@@ -75,23 +75,25 @@ nav ul {
     min-height: 50px;
 } */
 
-.row_class{
+.row_class {
     /* border: 1px solid blue; */
     min-height: 50px;
     margin-bottom: 50px;
 }
-.row_class2{
+
+.row_class2 {
     /* border: 1px solid blue; */
     margin-bottom: 10px;
 }
 
-.col_class{
+.col_class {
     /* border: 1px solid green; */
     min-height: 50px;
 }
+
 /***************************************************
 ***************************************************/
-.logo_top{
+.logo_top {
     width: 100%;
 }
 
@@ -105,66 +107,78 @@ nav ul {
     font-weight: 600;
     font-size: 40px;
 }
-.main-nav i:hover{
+
+.main-nav i:hover {
     color: rgb(227, 167, 14);
 }
+
 /***************************************************
 ***************************************************/
 /* .main-nav-menu{
     justify-content: space-between;
 } */
 
-.nav_menu li{
+.nav_menu li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-.nav_search{
+
+.nav_search {
     display: flex;
     justify-content: flex-start;
-    align-items: center;;
+    align-items: center;
+    ;
 }
+
 .main-nav-menu li {
     color: black;
     font-weight: 600;
 }
+
 .main-nav-menu a {
     color: black;
     font-weight: 600;
     font-size: 20px;
     transition: font-size 0.5s ease-in-out;
 }
+
 .main-nav-menu i {
     color: black;
     font-weight: 600;
     font-size: 25px;
     margin-left: 5px;
 }
-.main-nav-menu a:hover{
+
+.main-nav-menu a:hover {
     font-size: calc(20px + 3px);
     text-decoration: underline;
     text-decoration-color: rgb(227, 167, 14);
     text-decoration-thickness: 0.2rem;
     text-underline-offset: 8px;
 }
-.main-nav-menu i:hover{
+
+.main-nav-menu i:hover {
     color: rgb(227, 167, 14);
 }
-.vertical-line{
+
+.vertical-line {
     border: 2px solid #000;
     display: inline-block;
     height: 25px;
-  }
+}
+
 /***************************************************
 ***************************************************/
-.graine-cafe{
+.graine-cafe {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
     height: auto;
     text-align: center;
 }
-.graine-cafe h1{
+
+.graine-cafe h1 {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 0px;
@@ -172,141 +186,172 @@ nav ul {
     font-family: 'Arapey', serif;
     color: #000;
 }
-.graine-cafe p{
+
+.graine-cafe p {
     font-size: 15px;
     color: rgb(235, 163, 39);
     margin-top: 0px;
     font-family: 'Arapey', serif;
     font-style: italic;
 }
-.graine-cafe h1{
+
+.graine-cafe h1 {
     transition: font-size 1s ease-in-out;
 }
-.graine-cafe a p{
+
+.graine-cafe a p {
     transition: font-size 1s ease-in-out;
 }
+
 .graine-cafe:hover a p {
-  font-size: calc(15px + 3px);
+    font-size: calc(15px + 3px);
 }
+
 .graine-cafe:hover h1 {
     font-size: calc(30px + 3px);
 }
+
 /***************************************************
 ***************************************************/
-.fete-des-meres{
+.fete-des-meres {
     margin-left: auto;
     margin-right: auto;
     /* width: 600px;
     height: auto; */
     text-align: center;
 }
-.fete-des-meres h1{
+
+.fete-des-meres h1 {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 0px;
     margin-top: 0px;
     font-family: 'Arapey', serif;
 }
-.fete-des-meres p{
+
+.fete-des-meres p {
     font-size: 15px;
     color: rgb(227, 167, 14);
     margin-top: 0px;
     font-family: 'Arapey', serif;
     font-style: italic;
 }
-.fete-des-meres h1{
+
+.fete-des-meres h1 {
     transition: font-size 1s ease-in-out;
 }
-.fete-des-meres a p{
+
+.fete-des-meres a p {
     transition: font-size 1s ease-in-out;
 }
+
 .fete-des-meres:hover a p {
-  font-size: calc(15px + 3px);
+    font-size: calc(15px + 3px);
 }
+
 .fete-des-meres:hover h1 {
     font-size: calc(30px + 3px);
 }
+
 /***************************************************
 ***************************************************/
-.maille-fine-femme{
+.maille-fine-femme {
     text-align: center;
 }
-.maille-fine-femme h1{
+
+.maille-fine-femme h1 {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 0px;
     margin-top: 0px;
     font-family: 'Arapey', serif;
 }
-.maille-fine-femme p{
+
+.maille-fine-femme p {
     font-size: 15px;
     color: rgb(227, 167, 14);
     margin-top: 0px;
     font-family: 'Arapey', serif;
     font-style: italic;
 }
-.maille-fine-femme h1{
+
+.maille-fine-femme h1 {
     transition: font-size 1s ease-in-out;
 }
-.maille-fine-femme a p{
+
+.maille-fine-femme a p {
     transition: font-size 1s ease-in-out;
 }
+
 .maille-fine-femme:hover a p {
-  font-size: calc(15px + 3px);
+    font-size: calc(15px + 3px);
 }
+
 .maille-fine-femme:hover h1 {
     font-size: calc(30px + 3px);
 }
+
 /***************************************************
 ***************************************************/
-.cuir-femme{
+.cuir-femme {
     text-align: center;
 }
-.cuir-femme h1{
+
+.cuir-femme h1 {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 0px;
     margin-top: 0px;
     font-family: 'Arapey', serif;
 }
-.cuir-femme p{
+
+.cuir-femme p {
     font-size: 15px;
     color: rgb(227, 167, 14);
     margin-top: 0px;
     font-family: 'Arapey', serif;
     font-style: italic;
 }
-.cuir-femme h1{
+
+.cuir-femme h1 {
     transition: font-size 1s ease-in-out;
 }
-.cuir-femme a p{
+
+.cuir-femme a p {
     transition: font-size 1s ease-in-out;
 }
+
 .cuir-femme:hover a p {
-  font-size: calc(15px + 3px);
+    font-size: calc(15px + 3px);
 }
+
 .cuir-femme:hover h1 {
     font-size: calc(30px + 3px);
 }
+
 /***************************************************
 ***************************************************/
-hr{
+hr {
     color: black;
     margin: 0px;
     margin-bottom: 20px;
 }
-.hr_class{
+
+.hr_class {
     margin-bottom: 100px;
 }
-.reseaux{
+
+.reseaux {
     text-align: center;
 }
-.reseaux h1{
+
+.reseaux h1 {
     font-size: 30px;
     font-weight: 600;
     font-family: 'Arapey', serif;
     margin-bottom: 30px;
 }
+
 .reseaux-nav i {
     color: rgb(227, 167, 14);
     font-weight: 600;
@@ -316,37 +361,43 @@ hr{
     margin-bottom: 20px;
 
 }
-.reseaux-nav i:hover{
+
+.reseaux-nav i:hover {
     color: black;
 }
+
 /***************************************************
 ***************************************************/
-.service_client{
+.service_client {
     text-align: left;
     /* border: 1px solid green; */
 }
-.service_client h1{
+
+.service_client h1 {
     font-size: 30px;
     font-weight: 600;
     font-family: 'Arapey', serif;
     text-align: center;
     margin-bottom: 30px;
 }
-.service_client h5{
+
+.service_client h5 {
     font-size: 17px;
     color: #000;
     margin-top: 0;
     margin-bottom: 10px;
     font-family: 'Arapey', serif;
     transition: font-size 0.2s ease-in-out;
-    
+
 }
+
 .service_client h5:hover {
-  font-size: 17.5px;
+    font-size: 17.5px;
 }
+
 /***************************************************
 ***************************************************/
-.row_class_footer{
+.row_class_footer {
     /* border: 1px solid blue; */
     background-color: rgb(227, 167, 14);
 }
@@ -356,26 +407,29 @@ hr{
 /****************  DETAIL PRODUIT  *****************
 *******************              ******************/
 /**************************************************/
-.description_product h1{
+.description_product h1 {
     font-family: 'Arapey', serif;
     font-weight: bold;
 }
-.description_product p{
+
+.description_product p {
     font-family: 'Arapey', serif;
     font-weight: 400;
     font-size: 17px;
 }
-.description_product h2{
+
+.description_product h2 {
     font-family: 'Arapey', serif;
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 .incl_tva {
     font-size: 17px;
     font-weight: lighter;
 }
 
-.add_cart_button{
+.add_cart_button {
     background-color: #000;
     color: white;
     font-family: 'Arapey', serif;
@@ -385,74 +439,86 @@ hr{
     margin-bottom: 20px;
     border-radius: 20px;
 }
-.add_cart_div{
+
+.add_cart_div {
     text-align: center;
     align-items: center;
 }
-.add_cart_button:hover{
+
+.add_cart_button:hover {
     transform: scale(1.05);
     background-color: white;
     color: #000;
     font-weight: bold;
 }
 
-.share_div{
+.share_div {
     display: flex;
-    align-items: center; 
+    align-items: center;
     text-align: center;
     justify-content: space-between;
     width: 40%;
     /* border: solid blue 1px; */
 }
-.share_div i{
+
+.share_div i {
     font-size: 20px;
     color: rgb(227, 167, 14);
 }
-.share_div h3{
+
+.share_div h3 {
     font-size: 17px;
     margin: 0;
     font-family: 'Arapey', serif;
 }
-.share_div p{
+
+.share_div p {
     margin: 0;
     font-size: 12px;
 }
-.vertical-line2{
+
+.vertical-line2 {
     border: 1px solid #000;
     display: inline-block;
     height: 20px;
-  }
-  .share_div i:hover{
+}
+
+.share_div i:hover {
     color: black;
 }
+
 /***************************************************/
-.associate_creation{
+.associate_creation {
     text-align: center;
 }
-.others_img_div{
+
+.others_img_div {
     /* border: 1px solid #000; */
     min-height: 320px;
 }
-.associate_creation h1{
+
+.associate_creation h1 {
     font-family: 'Arapey', serif;
     font-size: 35px;
 }
-.associate_creation p{
+
+.associate_creation p {
     font-family: 'Arapey', serif;
     font-size: 18px;
 }
 
-.associate_creation h2{
+.associate_creation h2 {
     font-family: 'Arapey', serif;
     font-size: 30px;
 }
-.associate_creation h3{
+
+.associate_creation h3 {
     font-family: 'Arapey', serif;
     font-size: 27px;
     font-weight: bold;
 }
 
-.associate_crea_btn{
+.associate_crea_btn {
     background-color: #000;
     color: white;
     font-family: 'Arapey', serif;
@@ -462,54 +528,63 @@ hr{
     margin-bottom: 10px;
     border-radius: 15px;
 }
-.associate_crea_btn:hover{
+
+.associate_crea_btn:hover {
     transform: scale(1.05);
     background-color: white;
     color: #000;
     font-weight: bold;
 }
+
 /***************************************************/
-.grey_divs{
+.grey_divs {
     margin-top: 120px;
     margin-bottom: 80px;
 }
-.delivery_gift_div{
+
+.delivery_gift_div {
     min-height: 300px;
     background-color: rgb(236, 236, 236);
     display: flex;
     justify-content: center;
 }
-.dlvry_gift_content{
+
+.dlvry_gift_content {
     width: 60%;
 }
-.delivery_gift_div h1{
+
+.delivery_gift_div h1 {
     font-family: 'Arapey', serif;
     font-size: 30px;
     font-weight: bold;
     margin-top: 25%;
 }
+
 /***************************************************/
-.three_arguments{
+.three_arguments {
     display: flex;
     justify-content: center;
     margin-top: 200px;
     margin-bottom: 200px;
 }
 
-.arguments_div{
+.arguments_div {
     text-align: center;
     flex-direction: column;
 }
-.arguments_div i{
+
+.arguments_div i {
     display: block;
     margin: 40px auto;
     font-size: 40px;
 }
-.arguments_div h1{
+
+.arguments_div h1 {
     font-family: 'Arapey', serif;
     font-size: 35px;
     font-weight: bold;
 }
+
 /***************************************************
 *******************              ******************/
 /*********************  PANIER  ********************
@@ -520,49 +595,60 @@ hr{
     justify-content: center;
     align-items: center;
 }
-.cart_title h1{
+
+.cart_title h1 {
     font-family: 'Arapey', serif;
 }
-.panier-table{
+
+.panier-table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
 }
-.panier-table th{
+
+.panier-table th {
     border: 1.5px solid black;
     min-width: 100px;
     text-align: center;
 }
-.panier-table td{
+
+.panier-table td {
     max-width: 200px;
     border: 1.5px solid black;
     text-align: center;
 }
-.panier-table .delete{
+
+.panier-table .delete {
     max-width: 200px;
     border: none;
     text-align: center;
 }
-.cart_product{
+
+.cart_product {
     font-weight: 600;
 }
+
 tfoot {
     font-weight: bold;
 }
-.panier-table .cart_foot td{
+
+.panier-table .cart_foot td {
     max-width: 200px;
     border: none;
     text-align: center;
     font-size: larger;
 }
-.panier-table input{
+
+.panier-table input {
     max-width: 40px;
     text-align: center;
     border: none;
 }
-.payment_button{
+
+.payment_button {
     justify-content: center;
 }
+
 #confirm-command {
     min-height: 50px;
     margin-top: 100px;
@@ -572,71 +658,91 @@ tfoot {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 #confirm-command:hover {
     background-color: rgb(227, 167, 14);
     color: white;
 }
+
 /* .cart_product input{
     font-weight: 600;
 } */
-.continu_shopping{
+.continu_shopping {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.continu_shopping i{
+
+.continu_shopping i {
     font-size: 30px;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 20px;
     color: rgb(227, 167, 14);
 }
-.continu_shopping h1{
+
+.continu_shopping h1 {
     font-size: 20px;
     font-weight: bold;
 }
+
 /***************************************************
 *******************              ******************/
 /****************  BRACELETS  *****************
 *******************              ******************/
 /**************************************************/
-.filters h1{
+.filters h1 {
     font-family: 'Arapey', serif;
     font-size: 25px;
     margin-left: 10px;
 }
-.filters .d-flex.flex-column > div {
+
+.filters .d-flex.flex-column>div {
     margin-bottom: 10px;
     margin-left: 20px;
     font-family: 'Arapey', serif;
 }
+
 .filters input[type="radio"] {
-    display: none; /* Masquez les boutons radio d'origine */
+    display: none;
+    /* Masquez les boutons radio d'origine */
 }
-.filters input[type="radio"] + label {
+
+.filters input[type="radio"]+label {
     position: relative;
-    padding-left: 30px; /* Ajustez cet espace pour le carré */
+    padding-left: 30px;
+    /* Ajustez cet espace pour le carré */
     cursor: pointer;
 }
-.filters input[type="radio"] + label::before {
+
+.filters input[type="radio"]+label::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    width: 15px; /* Ajustez la taille du carré */
-    height: 15px; /* Ajustez la taille du carré */
-    border: 1px solid rgb(227, 167, 14); /* Style du bord du carré */
-    background-color: #fff; /* Couleur de fond du carré */
+    width: 15px;
+    /* Ajustez la taille du carré */
+    height: 15px;
+    /* Ajustez la taille du carré */
+    border: 1px solid rgb(227, 167, 14);
+    /* Style du bord du carré */
+    background-color: #fff;
+    /* Couleur de fond du carré */
 }
-.filters input[type="radio"]:checked + label::before {
-    background-color: rgb(227, 167, 14); /* Couleur de fond du carré lorsqu'il est coché */
-    border-color: rgb(227, 167, 14); /* Couleur du bord du carré lorsqu'il est coché */
+
+.filters input[type="radio"]:checked+label::before {
+    background-color: rgb(227, 167, 14);
+    /* Couleur de fond du carré lorsqu'il est coché */
+    border-color: rgb(227, 167, 14);
+    /* Couleur du bord du carré lorsqu'il est coché */
 }
 
 /* Style général pour les titres cliquables */
 .accordion-button {
-    background-color: #f8f9fa; /* Couleur de fond du bouton */
-    color: #333; /* Couleur du texte du bouton */
+    background-color: #f8f9fa;
+    /* Couleur de fond du bouton */
+    color: #333;
+    /* Couleur du texte du bouton */
     border: none;
     border-radius: 0;
     padding: 10px;
@@ -646,21 +752,27 @@ tfoot {
 
 /* Style pour les titres cliquables lorsqu'ils sont ouverts */
 .accordion-button[aria-expanded="true"] {
-    background-color: #e2e6ea; /* Couleur de fond du bouton ouvert */
-    color: #333; /* Couleur du texte du bouton ouvert */
+    background-color: #e2e6ea;
+    /* Couleur de fond du bouton ouvert */
+    color: #333;
+    /* Couleur du texte du bouton ouvert */
 }
 
 /* Style pour le contenu des listes déroulantes */
 .accordion-body {
-    background-color: #fff; /* Couleur de fond du contenu */
+    background-color: #fff;
+    /* Couleur de fond du contenu */
     padding: 10px;
-    border: 1px solid #ddd; /* Bordure autour du contenu */
-    border-top: none; /* Suppression de la bordure en haut */
+    border: 1px solid #ddd;
+    /* Bordure autour du contenu */
+    border-top: none;
+    /* Suppression de la bordure en haut */
 }
 
 /* Style pour les liens dans le contenu des listes déroulantes */
 .accordion-body a {
-    color: black; /* Couleur des liens */
+    color: black;
+    /* Couleur des liens */
     text-decoration: none;
 }
 
@@ -669,39 +781,45 @@ tfoot {
     text-decoration: underline;
 }
 
-.nb_article{
+.nb_article {
     display: flex;
     align-items: center;
 }
-.nb_article p{
+
+.nb_article p {
     font-family: 'Arapey', serif;
     margin-bottom: 0px;
     font-size: 16px;
 }
-.title_bracelet h1{
+
+.title_bracelet h1 {
     font-family: 'Arapey', serif;
     font-weight: bold;
     text-align: center;
 }
-.img_bracelet img{
+
+.img_bracelet img {
     width: 100%;
 }
 
 
-.bracelet_class{
+.bracelet_class {
     position: relative;
 }
-.bracelet_class:hover{
+
+.bracelet_class:hover {
     text-align: center;
 }
-.bracelets{
+
+.bracelets {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     height: auto;
     text-align: center;
 }
-.bracelets h1{
+
+.bracelets h1 {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 0px;
@@ -709,7 +827,8 @@ tfoot {
     font-family: 'Arapey', serif;
     color: #000;
 }
-.bracelets p{
+
+.bracelets p {
     font-size: 10px;
     color: rgb(235, 163, 39);
     margin-top: 0px;
@@ -717,14 +836,16 @@ tfoot {
     font-family: 'Arapey', serif;
     font-style: italic;
 }
-.bracelets h2{
+
+.bracelets h2 {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 0px;
     color: #000;
 }
-.buy_btn{
+
+.buy_btn {
     display: none;
     background-color: #000;
     color: white;
@@ -735,7 +856,8 @@ tfoot {
     margin-bottom: 10px;
     border-radius: 15px;
 }
-.bracelet_class:hover .buy_btn{
+
+.bracelet_class:hover .buy_btn {
     transform: scale(1.05);
     background-color: black;
     color: white;
@@ -744,22 +866,25 @@ tfoot {
     margin-left: auto;
     margin-right: auto;
 }
-.bracelet_class .buy_btn:hover{
+
+.bracelet_class .buy_btn:hover {
     background-color: white;
     color: black;
 }
+
 /***************************************************
 *******************              ******************/
 /*******************  LOGIN  ********************
 *******************              ******************/
 /**************************************************/
-.profil_nav h1{
+.profil_nav h1 {
     font-family: 'Arapey', serif;
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 30px;
 }
-.profil_menu li{
+
+.profil_menu li {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -768,13 +893,15 @@ tfoot {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+
 .profil_menu a {
     color: black;
     font-weight: 600;
     font-size: 20px;
     transition: font-size 0.5s ease-in-out;
 }
-.profil_menu a:hover{
+
+.profil_menu a:hover {
     font-size: calc(20px + 3px);
     text-decoration: underline;
     text-decoration-color: rgb(227, 167, 14);
@@ -782,7 +909,7 @@ tfoot {
     text-underline-offset: 8px;
 }
 
-.welcome_user{
+.welcome_user {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -790,18 +917,19 @@ tfoot {
     background-color: rgb(236, 236, 236);
 }
 
-.welcome_user h2{
+.welcome_user h2 {
     margin-top: 40px;
     margin-bottom: 20px;
     font-family: 'Arapey', serif;
     font-weight: 600;
 }
 
-.welcome_user p{
+.welcome_user p {
     font-family: 'Arapey', serif;
     font-size: 16px;
     width: 600px;
 }
+
 #disconnect {
     min-height: 50px;
     width: 200px;
@@ -813,23 +941,26 @@ tfoot {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 #disconnect:hover {
     background-color: rgb(227, 167, 14);
     color: white;
 }
 
-.div_user{
-    width: calc(50% - 20px); 
-    margin: 10px; 
-    padding: 40px; 
+.div_user {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 40px;
     border: 0.5px solid black;
 }
-.div_user h3{
+
+.div_user h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.div_user p{
+
+.div_user p {
     font-family: 'Arapey', serif;
     font-size: 16px;
 }
@@ -840,70 +971,80 @@ tfoot {
     font-size: 16px;
     transition: font-size 0.5s ease-in-out;
 }
-.div_user a:hover{
+
+.div_user a:hover {
     font-size: calc(16px + 1px);
     text-decoration: underline;
     text-decoration-color: rgb(227, 167, 14);
     text-decoration-thickness: 0.1rem;
     text-underline-offset: 4px;
 }
+
 /***************************************************
 *******************              ******************/
 /*******************  PROFILE  ********************
 *******************              ******************/
 /**************************************************/
-.user_profil{
+.user_profil {
     padding-left: 50px;
 }
-.profil_form_head h3{
+
+.profil_form_head h3 {
     margin-top: 20px;
     font-family: 'Arapey', serif;
     font-size: 25px;
     width: 600px;
 }
-.profil_form_head p{
+
+.profil_form_head p {
     margin-top: 20px;
     font-family: 'Arapey', serif;
     font-size: 16px;
     width: 75%;
 }
-.profil_form{
+
+.profil_form {
     margin-bottom: 20px;
 }
-.profil_form h4{
+
+.profil_form h4 {
     margin-bottom: 10px;
     color: grey;
     font-size: 15px;
     font-family: 'Arapey', serif;
 }
-.change_email_password button{
+
+.change_email_password button {
     text-align: left;
     margin-right: 20px;
     margin-bottom: 40px;
     border: none;
     background-color: white;
 }
-.change_email_password button a{
+
+.change_email_password button a {
     color: black;
     font-family: 'Arapey', serif;
     font-size: 16px;
     font-style: italic;
 }
-.change_email_password button a:hover{
+
+.change_email_password button a:hover {
     font-size: calc(16px + 1px);
     text-decoration: underline;
     text-decoration-color: rgb(227, 167, 14);
 }
 
-.civility_div{
+.civility_div {
     display: flex;
     margin-bottom: 30px;
 }
-.radio_button{
+
+.radio_button {
     margin-right: 60px;
 }
 
-.name_div input{
+.name_div input {
     border: 0;
     border-bottom: 1px solid #000;
     font-family: 'Arapey', serif;
@@ -911,36 +1052,40 @@ tfoot {
     margin-bottom: 20px;
 }
 
-.born_div{
+.born_div {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.born_input{
+.born_input {
     flex-basis: 33.33333333333%;
 }
 
-.born_input select{
+.born_input select {
     min-width: 100%;
     min-height: 30px;
     border-top: none;
 }
-.user_profil_foot{
+
+.user_profil_foot {
     padding-left: 50px;
 }
-.user_profil_foot p{
+
+.user_profil_foot p {
     margin-top: 20px;
     font-family: 'Arapey', serif;
     font-size: 15px;
     width: 80%;
 }
-.user_profil_foot a{
+
+.user_profil_foot a {
     color: black;
     text-decoration: underline;
     font-family: 'Arapey', serif;
     font-size: 15px;
 }
-.user_profil_foot a:hover{
+
+.user_profil_foot a:hover {
     text-decoration: none;
 }
 
@@ -954,26 +1099,30 @@ tfoot {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 #save:hover {
     background-color: rgb(227, 167, 14);
     color: white;
 }
+
 /***************************************************
 *******************              ******************/
 /*******************  ADRESSE  ********************
 *******************              ******************/
 /**************************************************/
-.user_adress h3{
+.user_adress h3 {
     font-family: 'Arapey', serif;
     margin-top: 50px;
     font-weight: bold;
 }
-.user_adress p{
+
+.user_adress p {
     font-family: 'Arapey', serif;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 16px;
 }
+
 .new_adress {
     display: flex;
     justify-content: space-between;
@@ -1018,35 +1167,41 @@ tfoot {
 /***********  CONNEXION/INSCRIPTION  **************
 *******************              ******************/
 /**************************************************/
-.create_account_div{
+.create_account_div {
     background-color: #ddd;
+    margin-bottom: 50px;
 }
-.register{
+
+.register {
     padding: 50px 50px;
     border-right: 1px solid grey;
 }
-.create_account{
+
+.create_account {
     padding: 50px 50px;
 }
-.register h1{
+
+.register h1 {
     font-family: 'Arapey', serif;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.register p{
+
+.register p {
     font-family: 'Arapey', serif;
     font-size: 18px;
     width: 450px;
 }
 
-.connection_form h2{
+.connection_form h2 {
     margin-bottom: 10px;
     color: grey;
     font-size: 15px;
     font-family: 'Arapey', serif;
 }
-.email_div input{
+
+.email_div input {
     border: 0;
     border-bottom: 1px solid #000;
     font-family: 'Arapey', serif;
@@ -1056,28 +1211,32 @@ tfoot {
     background-color: #ddd;
 }
 
-.connection_form #forgot_password{
+.connection_form #forgot_password {
     color: black;
     text-decoration: none;
     font-family: 'Arapey', serif;
     font-size: 15px;
 }
-.connection_form #forgot_password:hover{
+
+.connection_form #forgot_password:hover {
     text-decoration: underline;
 }
-.connection_form p{
+
+.connection_form p {
     margin-top: 20px;
     font-family: 'Arapey', serif;
     font-size: 15px;
     width: 80%;
 }
-.connection_form a{
+
+.connection_form a {
     color: black;
     text-decoration: underline;
     font-family: 'Arapey', serif;
     font-size: 15px;
 }
-.connection_form a:hover{
+
+.connection_form a:hover {
     text-decoration: none;
 }
 
@@ -1091,27 +1250,31 @@ tfoot {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 #connexion:hover {
     background-color: rgb(227, 167, 14);
     color: white;
 }
 
-.create_account h1{
+.create_account h1 {
     font-family: 'Arapey', serif;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.create_account p{
+
+.create_account p {
     font-family: 'Arapey', serif;
     font-size: 18px;
     width: 440px;
 }
-.create_account ul{
+
+.create_account ul {
     list-style-type: disc;
     margin-left: 10px;
 }
-.create_account li{
+
+.create_account li {
     font-family: 'Arapey', serif;
     font-size: 18px;
     width: 450px;
@@ -1129,7 +1292,104 @@ tfoot {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 #create_account_btn:hover {
     background-color: rgb(227, 167, 14);
     color: white;
+}
+
+/***************************************************
+*******************              ******************/
+/*************  CREATION DE COMPTE  ****************
+*******************              ******************/
+/**************************************************/
+.account_creation {
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.account_creation h1 {
+    font-family: 'Arapey', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.account_creation p {
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    width: 400px;
+}
+
+.create_account_form {
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.create_account_form h2 {
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Arapey', serif;
+}
+
+.email_div input {
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 400px;
+    background-color: #ddd;
+}
+
+.create_account_form #forgot_password {
+    color: black;
+    text-decoration: none;
+    font-family: 'Arapey', serif;
+    font-size: 15px;
+}
+
+.create_account_form #forgot_password:hover {
+    text-decoration: underline;
+}
+
+.create_account_form p {
+    margin-top: 20px;
+    font-family: 'Arapey', serif;
+    font-size: 15px;
+    padding-right: 25px;
+}
+
+.create_account_form a {
+    color: black;
+    text-decoration: underline;
+    font-family: 'Arapey', serif;
+    font-size: 15px;
+}
+
+.create_account_form a:hover {
+    text-decoration: none;
+}
+
+.input_div input {
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 350px;
+    background-color: #ddd;
+}
+
+.born_input2{
+    flex-basis: 33.33333333333%;
+}
+
+.born_input2 select{
+    min-width: 100%;
+    min-height: 30px;
+    border-top: none;
+    background-color: #ddd;
 }
