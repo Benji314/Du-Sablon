@@ -1393,3 +1393,35 @@ tfoot {
     border-top: none;
     background-color: #ddd;
 }
+/***************************************************
+*******************              ******************/
+/****************  MES COMMANDES  ******************
+*******************              ******************/
+/**************************************************/
+.user_order {
+    text-align: left;
+}
+.user_order h3 {
+    font-family: 'Arapey', serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.user_order p {
+    font-family: 'Arapey', serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.user_order a {
+    color: black;
+    text-decoration: underline;
+    font-family: 'Arapey', serif;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.user_order a:hover {
+    text-decoration: none;
+}
+
