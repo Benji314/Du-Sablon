@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Du Sablon - Aperçu du profil</title>
+    <title>Du Sablon - Connexion/Inscription</title>
 
     <script src="https://kit.fontawesome.com/7bf48a1144.js" crossorigin="anonymous"></script>
 
@@ -70,54 +70,43 @@
     <main>
 
         <div class="row row_class">
-            <div class="col-md-2 offset-md-1 col_class profil_nav">
-                <h1>DU SABLON</h1>
-                <div class="d-flex flex-column">
-                    <nav>
-                        <ul class="profil_menu">
-                            <li><a href="">aperçu</a></li>
-                            <li><a href="">mon profilL</a></li>
-                            <li><a href="">mes commandes</a></li>
-                            <li><a href="">mes adresses</a></li>
-                            <li><a href="">ma wishlist</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="col-md-8 col_class">
-                <div class="row row_class2 welcome_user">
-                    <h2>BIENVENUE USER</h2>
-                    <p>À partir de votre compte Du Sablon, vous pouvez gérer et garder la trace de votre expérience d’achat personnalisée sur la boutique en ligne Du Sablon.</p>
-                    <button id="disconnect">déconnexion</button>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6 col_class div_user">
-                        <h3>MON PROFIL</h3>
-                        <p>M. Benjamin Perreau</p>
-                        <p>benjaminperreau1@gmail.com</p>
-                        <p><a href="">Voir mon profil</a></p>
-                    </div>
-                    <div class="col-md-6 col_class div_user">
-                        <h3>MES COMMANDES</h3>
-                        <p>Vous n'avez pas encore commandé en tant qu'utilisateur inscrit.</p>
-                        <p><a href="">Voir mes commandes</a></p>
-                    </div>
-                </div>
-                <div class="row row_class2">
-                    <div class="col-md-6 col_class div_user">
-                        <h3>MES ADRESSES</h3>
-                        <p>Vous n'avez aucune adresse sauvegardée.</p>
-                        <p><a href="">Voir mes adresses</a></p>
-                    </div>
-                    <div class="col-md-6 col_class div_user">
-                        <h3>MA WISHLIST</h3>
-                        <p>Vous n'avez pas encore ajouté de produit à votre wishlist.</p>
-                        <p><a href="">Voir ma wishlist</a></p>
+            <div class="col-md-5 offset-md-1 col_class create_account_div">
+                <div class="register">
+                    <h1>déjà inscrit(e) ?</h1>
+                    <p>Si vous êtes déjà inscrit(e) chez Du Sablon, veuillez vous connecter ici :</p>
+                    <div class="connection_form">
+                        <form id="connection_form_data">
+                            <h2>Adresse email *</h2>
+                            <div class="email_div">
+                                <input data-val-required="Veuillez renseigner votre adresse email" id="profile_email" placeholder required="required" type="text" value="benjaminperreau1@gmail.com">
+                            </div>
+                            <h2>Mot de passe *</h2>
+                            <div class="email_div">
+                                <input data-val-required="Le mot de passe est obligatoire" id="profile_password" placeholder required="required" type="password" value="benjaminperreau1@gmail.com">
+                            </div>
+                            <a href="" id="forgot_password"><p>Vous avez oublié votre mot de passe ?</p></a>
+                            <p>Pour plus de renseignements sur la façon dont nous utilisons vos données à caractère personnel, veuillez consulter notre <a href="">Politique de Confidentialité.</a></p>
+                            <button type="submit" id="connexion">connexion</button>
+                        </form>
                     </div>
                 </div>
             </div>
+            <div class="col-md-5 col_class create_account_div">
+                <div class="create_account">
+                    <h1>créez votre compte</h1>
+                    <p>Inscrivez-vous pour profiter des avantages de votre compte Du Sablon :</p>
+                    <ul>
+                        <li>Gérer votre profil</li>
+                        <li>Enregistrer vos adresses de livraison</li>
+                        <li>Vérifier vos commandes</li>
+                        <li>Gérer votre collection et vos services commandés</li>
+                    </ul>
+                    <button type="submit" id="create_account_btn">créer mon compte</button>
+                </div>
+
+            </div>
+
+
         </div>
 
 

@@ -81,7 +81,7 @@ nav ul {
     margin-bottom: 50px;
 }
 .row_class2{
-   /*  border: 1px solid blue; */
+    /* border: 1px solid blue; */
     margin-bottom: 10px;
 }
 
@@ -1011,4 +1011,125 @@ tfoot {
 
 .add_new_adress p:hover {
     text-decoration: none;
+}
+
+/***************************************************
+*******************              ******************/
+/***********  CONNEXION/INSCRIPTION  **************
+*******************              ******************/
+/**************************************************/
+.create_account_div{
+    background-color: #ddd;
+}
+.register{
+    padding: 50px 50px;
+    border-right: 1px solid grey;
+}
+.create_account{
+    padding: 50px 50px;
+}
+.register h1{
+    font-family: 'Arapey', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.register p{
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    width: 450px;
+}
+
+.connection_form h2{
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Arapey', serif;
+}
+.email_div input{
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 400px;
+    background-color: #ddd;
+}
+
+.connection_form #forgot_password{
+    color: black;
+    text-decoration: none;
+    font-family: 'Arapey', serif;
+    font-size: 15px;
+}
+.connection_form #forgot_password:hover{
+    text-decoration: underline;
+}
+.connection_form p{
+    margin-top: 20px;
+    font-family: 'Arapey', serif;
+    font-size: 15px;
+    width: 80%;
+}
+.connection_form a{
+    color: black;
+    text-decoration: underline;
+    font-family: 'Arapey', serif;
+    font-size: 15px;
+}
+.connection_form a:hover{
+    text-decoration: none;
+}
+
+#connexion {
+    min-height: 50px;
+    width: 200px;
+    margin-top: 40px;
+    border: 2px solid rgb(227, 167, 14);
+    background-color: #ddd;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#connexion:hover {
+    background-color: rgb(227, 167, 14);
+    color: white;
+}
+
+.create_account h1{
+    font-family: 'Arapey', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.create_account p{
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    width: 440px;
+}
+.create_account ul{
+    list-style-type: disc;
+    margin-left: 10px;
+}
+.create_account li{
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#create_account_btn {
+    min-height: 50px;
+    width: 250px;
+    margin-top: 40px;
+    border: 2px solid rgb(227, 167, 14);
+    background-color: #ddd;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#create_account_btn:hover {
+    background-color: rgb(227, 167, 14);
+    color: white;
 }
