@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "name": "Graine de café",
+            "unitPrice": 16,
+            "quantity": 1,
+            "path_img": "img/R1241.001.png"
+        },
+        {
+            "name": "Produit 2",
+            "unitPrice": 12,
+            "quantity": 1,
+            "path_img": "img/R1153.001.png"
+        },
+        {
+            "name": "Produit 3",
+            "unitPrice": 15,
+            "quantity": 1,
+            "path_img": "img/R1128.001.png"
+        },
+        {
+            "name": "Produit 4",
+            "unitPrice": 18,
+            "quantity": 1,
+            "path_img": "img/R1110.001.png"
+        },
+        {
+            "name": "Produit 5",
+            "unitPrice": 20,
+            "quantity": 1,
+            "path_img": "img/R1209.001.png"
+        }
+    ],
+    "shipping_id": 1,
+    "user": null
+  }

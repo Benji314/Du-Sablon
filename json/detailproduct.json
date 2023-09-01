@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "name": "Graine de café",
+            "description": "Couleur du métal: Argent, Métal: Acier Inoxydable, Condition: 100% nouveau, Emballage: Sachet en organza, Fermoir: Fermoir mousqueton, Maille: Maille graine de café, Couleur: Argent, Traitement de surface: Poli et satiné.",
+            "unitPrice": 14.5,
+            "path_img1": "/img/R1241.001.png",
+            "path_img2": "/img/R1241.003.jpg",
+            "path_img3": "/img/R1241.004.jpg",
+            "path_img4": "/img/R1241.005.png",
+            "ref": "R1241"
+        },
+        {
+            "name": "Bracelet Fin Argenté Ananas Brillant",
+            "description": "Couleur du métal: Argent, Métal: Acier Inoxydable, Condition: 100% nouveau, Emballage: Sachet en organza, Fermoir: Fermoir mousqueton, Maille: Maille forçat, Couleur: Argent, Traitement de surface: Poli et satiné, Taille: 19.5 cm longueur / 0.6 cm largeur / 0.2 cm épaisseur, Poids: 1 gramme, Redimensionnable: Oui.",
+            "unitPrice": 11.9,
+            "path_img1": "/img/R1128.001.png",
+            "path_img2": "/img/R1128.003.jpg",
+            "path_img3": null,
+            "path_img4": null,
+            "ref": "R1128"
+        },
+        {
+            "name": "Bracelet Doré Croix Cuir Blanc",
+            "description": "Couleur du métal: Or, Métal: Acier Inoxydable, Condition: 100% nouveau, Emballage: Sachet en organza, Fermoir: Fermoir mousqueton, Maille: / Couleur: Or/blanc, Traitement de surface: Poli et satiné, Taille: 22 cm longueur / 2.1 cm largeur / 0.6 cm épaisseur, Poids: 7 grammes, Redimensionnable: Oui.",
+            "unitPrice": 12.9,
+            "path_img1": "/img/R1110.001.png",
+            "path_img2": "/img/R1110.002.png",
+            "path_img3": null,
+            "path_img4": null,
+            "ref": "R1110"
+        },
+        {
+            "name": "Bracelet en Cuir Tréssé Noir et en Acier Inoxydable Argenté 3 Pierres Naturelles",
+            "description": "Couleur du métal: Argent Métal: Acier Inoxydable Condition: 100% nouveau Emballage: Sachet en organza Fermoir: Fermoir aimanté Cuir : Cuir Tressé Couleur: Argent, noir, marron Traitement de surface: Poli et satiné Taille: 21 cm longueur / 1 cm largeur / 0.8 cm épaisseur Poids: 17 grammes Redimensionnable: Non.",
+            "unitPrice": 18.5,
+            "path_img1": "/img/R1209.001.png",
+            "path_img2": "/img/R1209.002.png",
+            "path_img3": null,
+            "path_img4": null,
+            "ref": "R1209"
+        },
+        {
+            "name": "Bracelet Algérie Doré",
+            "description": "Couleur du métal: Or, Métal: Acier Inoxydable, Condition: 100% nouveau, Emballage: Sachet en organza, Fermoir: Fermoir mousqueton, Maille: Maille forçat, Couleur: Or, Traitement de surface: Poli et satiné, Taille: 18.5 cm longueur / 1.6 cm largeur / 0.2 cm épaisseur, Poids: 6 grammes, Redimensionnable: Non.",
+            "unitPrice": 12.9,
+            "path_img1": "/img/R1153.001.png",
+            "path_img2": "/img/R1153.003.jpg",
+            "path_img3": null,
+            "path_img4": null,
+            "ref": "R1153"
+        }
+    ],
+    "shipping_id": 1,
+    "user": null
+  }

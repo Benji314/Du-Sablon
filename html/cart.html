@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Du Sablon - Panier</title>
+
+    <script src="https://kit.fontawesome.com/7bf48a1144.js" crossorigin="anonymous"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/icons/all.css">
+
+    <script src="/js/cart.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container the_base">
+
+            <div class="row row_class">
+                <div class="col-md-4 offset-md-4 col_class">
+                    <a href=""><img class="logo_top " src="/img/DuSablonLogoZoom.png" alt=""></a>
+                </div>
+
+                <div class="col-md-1 offset-md-3 col_class">
+                    <nav class="main-nav flex">
+                        <a href=""><i class="fa-regular fa-circle-user"></i></a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row row_class2">
+                <div class="col-md-6 offset-md-3 col_class">
+                    <nav class="main-nav-menu">
+                        <ul class="flex nav_menu">
+                            <li><a href="">BRACELETS</a></li>
+                            <li><a href="">COLLIERS</a></li>
+                            <li><a href="">BAGUES</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-1 col_class">
+                    <nav class="main-nav-menu">
+                        <ul class="flex nav_search">
+                            <li><span class="vertical-line"></span></li>
+                            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr class="hr_class">
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container the_base">
+
+            <div class="row row_class">
+                <div class="col-md-2 offset-md-5 col_class cart_title">
+                    <h1>PANIER</h1>
+                </div>
+            </div>
+
+            <div class="row row_class">
+                <div class="col-md-6 offset-md-3 col_class">
+                    <table class="panier-table" id="cart">
+                        <thead>
+                            <tr>
+                                <th>Produit</th>
+                                <th>Nom</th>
+                                <th>Prix</th>
+                                <th>Quantité</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--<tr class="cart_product">
+                                <td><a href=""><img src="img/R1241.001.png" alt=""></a></td>
+                                <td class="price_unit" data-price="20">20 €</td>
+                                <td class="quantity">
+                                    <input type="number" name="quantity" value="1" required>
+                                </td>
+                                <td class="total_price" data-total-price="15">-</td>
+                                <td class="delete">
+                                    <button class="btn">X</button>
+                                </td>
+                            </tr>-->
+                        </tbody>
+                        <tfoot>
+                            <!--<tr>
+                                <td colspan="5">
+                                    <input type="radio" name="delivery_option" id="delivery_option_domicile"
+                                        class="delivery_choice" value="12">
+                                    <label for="delivery_option_domicile">A domicile</label>
+                                    <input type="radio" name="delivery_option" id="delivery_option_relay"
+                                        class="delivery_choice" value="5">
+                                    <label for="delivery_option_relay">Relais colis</label>
+                                </td>
+                            </tr> -->
+                            <tr class="cart_foot">
+                                <td colspan="4">Total</td>
+                                <td class="total_cart">-</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                </div>
+                <div class="row row_class">
+                    <div class="col-md-4 offset-md-5 col_class payment_button">
+                        <button id="confirm-command">Procéder à l'achat</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row row_class">
+                <div class="col-md-4 offset-md-4 col_class continu_shopping">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <h1>CONTINUER MES ACHATS</h1>
+                </div>
+            </div>
+
+
+
+            <div class="row row_class three_arguments">
+                <div class="col-md-3 offset-md-1 col_class arguments_div">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h1>LIVRAISON OFFERTE</h1>
+                </div>
+                <div class="col-md-4 col_class arguments_div">
+                    <i class="fa-solid fa-gift"></i>
+                    <h1>EMBALLAGES CADEAUX</h1>
+                </div>
+                <div class="col-md-3 col_class arguments_div">
+                    <i class="fa-solid fa-right-left"></i>
+                    <h1>RETOUR FACILE</h1>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container the_base">
+
+            <div class="row row_class">
+
+                <div class="col-md-8 offset-md-2 col_class">
+                    <hr>
+                    <div class="reseaux">
+                        <h1>NOUS SUIVRE</h1>
+                        <nav class="reseaux-nav">
+                            <ul class="flex">
+                                <a href="">
+                                    <li><i class="fa-brands fa-instagram"></i></li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fa-brands fa-facebook"></i></li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fa-brands fa-pinterest"></i></li>
+                                </a>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row row_class">
+                <div class="col-md-5 offset-md-1 col_class ">
+                    <div class="service_client">
+                        <h1>SERVICE CLIENT</h1>
+                        <a href="">
+                            <h5>NOUS CONTACTER </h5>
+                        </a>
+                        <a href="">
+                            <h5>ACHAT EN LIGNE </h5>
+                        </a>
+                        <a href="">
+                            <h5>SUIVEZ VOTRE COMMANDE </h5>
+                        </a>
+                        <a href="">
+                            <h5>EXPEDITION ET LIVRAISON </h5>
+                        </a>
+                        <a href="">
+                            <h5>COMMANDES ET PAIEMENT </h5>
+                        </a>
+                        <a href="">
+                            <h5>AIDE </h5>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col_class">
+                    <div class="service_client">
+                        <h1>LEGAL ET CONFIDENTIALITE</h1>
+                        <a href="">
+                            <h5>CONDITIONS D'UTILISATION</h5>
+                        </a>
+                        <a href="">
+                            <h5>CONDITIONS DE VENTE</h5>
+                        </a>
+                        <a href="">
+                            <h5>POLITIQUE DE RETOUR </h5>
+                        </a>
+                        <a href="">
+                            <h5>POLITIQUE DE CONFIDENTIALITE</h5>
+                        </a>
+                        <a href="">
+                            <h5>POLITIQUE DES COOKIES </h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row_class_footer">
+            <div class="col-md-4 offset-md-4 col_class">
+                <a href=""><img class="logo_top " src="/img/DuSablonLogoZoom2.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>

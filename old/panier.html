@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Du Sablon - Panier</title>
+
+    <script src="https://kit.fontawesome.com/7bf48a1144.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="functions.js" defer></script>
+    <script src="main.js" defer></script>
+
+
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="container flex">
+            <div class="logo">
+                <a href=""><img src="img/DuSablonLogoZoom.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 id="cart_h1">Panier</h1>
+            <table class="panier-table" id="cart">
+                <thead>
+                    <tr>
+                        <th>Produit</th>
+                        <th>Nom</th>
+                        <th>Prix</th>
+                        <th>Quantité</th>
+                        <th>Total</th>
+                        <!-- <th>Supprimer</th> -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--<tr class="cart_product">
+                        <td><a href=""><img src="img/R1241.001.png" alt=""></a></td>
+                        <td class="price_unit" data-price="20">20 €</td>
+                        <td class="quantity">
+                            <input type="number" name="quantity" value="1" required>
+                        </td>
+                        <td class="total_price" data-total-price="15">-</td>
+                        <td class="delete">
+                            <button class="btn">X</button>
+                        </td>
+                    </tr>-->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">
+                            <input type="radio" name="delivery_option" id="delivery_option_domicile"
+                                class="delivery_choice" value="12">
+                            <label for="delivery_option_domicile">A domicile</label>
+                            <input type="radio" name="delivery_option" id="delivery_option_relay"
+                                class="delivery_choice" value="5">
+                            <label for="delivery_option_relay">Relais colis</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Total</td>
+                        <td class="total_cart">-</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <!-- <p>Sous total : <span class="subtotal"></span>€</p> -->
+
+            <button id="confirm-command">Passer la commande</button>
+        </div>
+
+        <div class="container">
+            <div class="container flex cart_product2">
+                <div class="product_img"><img src="img/R1241.001.png" alt=""></div>
+                <div class="cart_product_argument">
+                    <h1>GRAINE DE CAFE</h1>
+                    <p>Acier inoxydable</p>
+                    <p>Taille unique</p>
+                    <input type="number" name="quantity" value="1" required>
+                    <p>Sous-total : ?</p>
+                </div>
+                <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+        </div>
+
+        <div class="container flex continu_shopping">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h1>CONTINUER MES ACHATS</h1>
+        </div>
+
+        <div class="container flex free_shipping">
+            <div class="argument">
+                <i class="fa-sharp fa-solid fa-truck-fast"></i>
+                <h1>LIVRAISON OFFERTE</h1>
+            </div>
+            <div class="argument">
+                <i class="fa-solid fa-right-left"></i>
+                <h1>RETOUR/ECHANGE FACILE</h1>
+            </div>
+            <div class="argument">
+                <i class="fa-solid fa-gift"></i>
+                <h1>EMBALLAGE CADEAUX</h1>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container reseaux">
+            <h1>NOUS SUIVRE</h1>
+            <nav class="reseaux-nav">
+                <ul class="flex">
+                    <a href="">
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                    </a>
+                    <a href="">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                    </a>
+                    <a href="">
+                        <li><i class="fa-brands fa-pinterest"></i></li>
+                    </a>
+
+                </ul>
+            </nav>
+        </div>
+        <hr>
+
+        <div class="container flex">
+            <div class="service-client">
+                <h1>SERVICE CLIENT</h1>
+                <a href="">
+                    <h5>NOUS CONTACTER </h5>
+                </a>
+                <a href="">
+                    <h5>ACHAT EN LIGNE </h5>
+                </a>
+                <a href="">
+                    <h5>SUIVEZ VOTRE COMMANDE </h5>
+                </a>
+                <a href="">
+                    <h5>EXPEDITION ET LIVRAISON </h5>
+                </a>
+                <a href="">
+                    <h5>COMMANDES ET PAIEMENT </h5>
+                </a>
+                <a href="">
+                    <h5>AIDE </h5>
+                </a>
+            </div>
+
+            <div class="service-client">
+                <h1>LEGAL ET CONFIDENTIALITE</h1>
+                <a href="">
+                    <h5>CONDITIONS D'UTILISATION</h5>
+                </a>
+                <a href="">
+                    <h5>CONDITIONS DE VENTE</h5>
+                </a>
+                <a href="">
+                    <h5>POLITIQUE DE RETOUR </h5>
+                </a>
+                <a href="">
+                    <h5>POLITIQUE DE CONFIDENTIALITE</h5>
+                </a>
+                <a href="">
+                    <h5>POLITIQUE DES COOKIES </h5>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footbar">
+        <div class="container flex">
+            <div>
+                <a href=""><img src="img/DuSablonLogoZoom2.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

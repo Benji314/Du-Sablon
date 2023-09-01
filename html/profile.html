@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Du Sablon - Mon Profil</title>
+
+    <script src="https://kit.fontawesome.com/7bf48a1144.js" crossorigin="anonymous"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/icons/all.css">
+
+    <script src="/js/profile.js" defer></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="container the_base">
+
+            <div class="row row_class">
+                <div class="col-md-4 offset-md-4 col_class">
+                    <a href=""><img class="logo_top " src="/img/DuSablonLogoZoom.png" alt=""></a>
+                </div>
+
+                <div class="col-md-2 offset-md-2 col_class">
+                    <nav class="main-nav flex">
+                        <a href=""><i class="fa-regular fa-circle-user"></i></a>
+                        <a href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row row_class2">
+                <div class="col-md-6 offset-md-3 col_class">
+                    <nav class="main-nav-menu">
+                        <ul class="flex nav_menu">
+                            <li><a href="">BRACELETS</a></li>
+                            <li><a href="">COLLIERS</a></li>
+                            <li><a href="">BAGUES</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-1 col_class">
+                    <nav class="main-nav-menu">
+                        <ul class="flex nav_search">
+                            <li><span class="vertical-line"></span></li>
+                            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr class="hr_class">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="row row_class">
+            <div class="col-md-2 offset-md-1 col_class profil_nav">
+                <h1>DU SABLON</h1>
+                <div class="d-flex flex-column">
+                    <nav>
+                        <ul class="profil_menu">
+                            <li><a href="">aperçu</a></li>
+                            <li><a href="">mon profilL</a></li>
+                            <li><a href="">mes commandes</a></li>
+                            <li><a href="">mes adresses</a></li>
+                            <li><a href="">ma wishlist</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="col-md-8 col_class">
+                <div class="row row_class2 welcome_user">
+                    <h2>BIENVENUE USER</h2>
+                    <p>À partir de votre compte Du Sablon, vous pouvez gérer et garder la trace de votre expérience d’achat personnalisée sur la boutique en ligne Du Sablon.</p>
+                    <button id="disconnect">déconnexion</button>
+                </div>
+
+                <div class="row row_class2">
+                    <div class="col-md-6 col_class user_profil">
+                        <div class="profil_form_head">
+                            <h3>BIENVENUE BENJAMIN</h3>
+                            <p>Vérifiez et modifiez vos informations personnelles, votre adresse email et votre mot de passe.</p>
+                        </div>
+                        <div class="profil_form">
+                            <form id="profil_form_data" action="">
+                                <div class="change_email_password">
+                                    <button><a href="">Changer d'adresse email</a></button>
+                                    <button><a href="">Changer de mot de passe</a></button>
+                                </div>
+                                <h4>Civilité *</h4>
+                                <div class="civility_div">
+                                    <div class="radio_button">
+                                        <input id="profile_civility1" name="profile_civility" type="radio" value="Mme">
+                                        <label for="profile_civility1">Mme</label>
+                                    </div>
+                                    <div class="radio_button">
+                                        <input id="profile_civility2" name="profile_civility" type="radio" value="M">
+                                        <label for="profile_civility2">M.</label>
+                                    </div>
+                                </div>
+                                
+                                <h4>Prénom *</h4>
+                                <div class="name_div">
+                                    <input data-val-required="Le prénom est obligatoire" id="profile_name" placeholder required="required" type="text" value="Benjamin">
+                                </div>
+                                <h4>Nom *</h4>
+                                <div class="name_div">
+                                    <input data-val-required="Le prénom est obligatoire" id="profile_lastname" placeholder required="required" type="text" value="Perreau">
+                                </div>
+                                <h4>Date de naissance</h4>
+                                <div class="born_div">
+                                    <input type="hidden" value="">
+                                    <div class="born_input day">
+                                        <select name="day" id="day">
+                                            <option value="selected">Jour</option>
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                            <option value="04">04</option>
+                                            <option value="05">05</option>
+                                            <option value="06">06</option>
+                                            <option value="07">07</option>
+                                            <option value="08">08</option>
+                                            <option value="09">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19"></option>
+                                            <option value="20"></option>
+                                            <option value="21"></option>
+                                            <option value="22"></option>
+                                            <option value="23"></option>
+                                            <option value="24"></option>
+                                            <option value="25"></option>
+                                            <option value="26"></option>
+                                            <option value="27"></option>
+                                            <option value="28"></option>
+                                            <option value="29"></option>
+                                            <option value="30"></option>
+                                            <option value="31"></option>
+                                        </select>
+                                    </div>
+                                    <div class="born_input day">
+                                        <select name="month" id="month">
+                                            <option value="selected">Mois</option>
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                        </select>
+                                    </div>
+                                    <div class="born_input year">
+                                        <select name="year" id="year">
+                                            <option value="selected">Année</option>
+                                            <option value="2023">2023</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2021">2021</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col_class user_profil_save">
+                                    <!-- <p>Pour plus de renseignements sur la façon dont nous utilisons vos données à caractère personnel, veuillez consulter notre <a href="">Politique de Confidentialité</a>.</p> -->
+                                    <button type="submit" id="save">sauvegarder</button>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row row_class2">
+                    <div class="col-md-12 col_class user_profil_foot">
+                        <p>Pour plus de renseignements sur la façon dont nous utilisons vos données à caractère personnel, veuillez consulter notre <a href="">Politique de Confidentialité</a>.</p>
+                        <!-- <button type="submit" id="save">sauvegarder</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="container the_base">
+
+            <div class="row row_class">
+
+                <div class="col-md-8 offset-md-2 col_class">
+                    <hr>
+                    <div class="reseaux">
+                        <h1>NOUS SUIVRE</h1>
+                        <nav class="reseaux-nav">
+                            <ul class="flex">
+                                <a href="">
+                                    <li><i class="fa-brands fa-instagram"></i></li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fa-brands fa-facebook"></i></li>
+                                </a>
+                                <a href="">
+                                    <li><i class="fa-brands fa-pinterest"></i></li>
+                                </a>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row row_class">
+                <div class="col-md-5 offset-md-1 col_class ">
+                    <div class="service_client">
+                        <h1>SERVICE CLIENT</h1>
+                        <a href="">
+                            <h5>NOUS CONTACTER </h5>
+                        </a>
+                        <a href="">
+                            <h5>ACHAT EN LIGNE </h5>
+                        </a>
+                        <a href="">
+                            <h5>SUIVEZ VOTRE COMMANDE </h5>
+                        </a>
+                        <a href="">
+                            <h5>EXPEDITION ET LIVRAISON </h5>
+                        </a>
+                        <a href="">
+                            <h5>COMMANDES ET PAIEMENT </h5>
+                        </a>
+                        <a href="">
+                            <h5>AIDE </h5>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col_class">
+                    <div class="service_client">
+                        <h1>LEGAL ET CONFIDENTIALITE</h1>
+                        <a href="">
+                            <h5>CONDITIONS D'UTILISATION</h5>
+                        </a>
+                        <a href="">
+                            <h5>CONDITIONS DE VENTE</h5>
+                        </a>
+                        <a href="">
+                            <h5>POLITIQUE DE RETOUR </h5>
+                        </a>
+                        <a href="">
+                            <h5>POLITIQUE DE CONFIDENTIALITE</h5>
+                        </a>
+                        <a href="">
+                            <h5>POLITIQUE DES COOKIES </h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row_class_footer">
+            <div class="col-md-4 offset-md-4 col_class">
+                <a href=""><img class="logo_top " src="/img/DuSablonLogoZoom2.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

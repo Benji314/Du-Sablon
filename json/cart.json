@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "name": "Graine de café",
+            "unitPrice": 14.50,
+            "quantity": 1,
+            "path_img": "/img/R1241.001.png"
+        },
+        {
+            "name": "Bracelet Fin Argenté Ananas Brillant",
+            "unitPrice": 11.90,
+            "quantity": 1,
+            "path_img": "/img/R1128.001.png"
+        },
+        {
+            "name": "Bracelet Doré Croix Cuir Blanc",
+            "unitPrice": 12.90,
+            "quantity": 1,
+            "path_img": "/img/R1110.001.png"
+        },
+        {
+            "name": "Bracelet en Cuir Tréssé Noir et en Acier Inoxydable Argenté 3 Pierres Naturelles",
+            "unitPrice": 18.50,
+            "quantity": 1,
+            "path_img": "/img/R1209.001.png"
+        },
+        {
+            "name": "Bracelet Algérie Doré",
+            "unitPrice": 12.90,
+            "quantity": 1,
+            "path_img": "/img/R1153.001.png"
+        }
+    ],
+    "shipping_id": 1,
+    "user": null
+  }
