@@ -56,8 +56,19 @@ function init(detail_data) {
 
 }
 
-fetch('/json/products.json')
+/* fetch('/json/products.json')
     .then((response) => response.json())
-    .then((detail_data) => init(detail_data))
+    .then((detail_data) => init(detail_data)) */
 
     
+const url = new URL(window.location.href);
+const id = url.searchParams.get("id");
+
+if (id) {
+    //  Fichier JSON a un nom qui inclut l'ID : "product1.json" pour ID = 1.
+    fetch(`/json/product${id}.json`) 
+        .then((response) => response.json())
+        .then((detail_data) => generateDetailProductHtml(detail_data));
+} else {
+    console.error("ID not specified or invalid.");
+}
