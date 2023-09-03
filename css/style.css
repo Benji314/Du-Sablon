@@ -667,13 +667,13 @@ tfoot {
 /* .cart_product input{
     font-weight: 600;
 } */
-.continu_shopping {
+.continu_shopping a{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.continu_shopping i {
+.continu_shopping a i {
     font-size: 30px;
     margin-top: auto;
     margin-bottom: auto;
@@ -681,9 +681,10 @@ tfoot {
     color: rgb(227, 167, 14);
 }
 
-.continu_shopping h1 {
+.continu_shopping a h1 {
     font-size: 20px;
     font-weight: bold;
+    color: black;
 }
 
 /***************************************************

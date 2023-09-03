@@ -82,7 +82,7 @@ function generateCartProductsHtml(cart_products) {
                     <input type="number" value="${cart_product.quantity}"/>
                 </td>
                 <td class="total_price"></td>
-                <td class="delete"><button class="btn">X</button></td>
+                <td class="delete"><button class="btn"><i class="fa-regular fa-square-minus"></i></button></td>
             </tr>
         `
     })
