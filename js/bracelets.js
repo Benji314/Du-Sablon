@@ -76,13 +76,11 @@ function generateBraceletProductsHtml(products) {
         productsHtml += `
             <div class="col-md-3 col_class bracelet_class">
                 <div class="bracelets">
-                    <a href=""><img src="${bracelet_product.path_img}" alt=""></a>
+                    <a href="/html/detailproduit.html?id=${bracelet_product.id}"><img src="${bracelet_product.path_img}" alt=""></a>
                     <h1>${bracelet_product.name}</h1>
-                    <a href="">
-                        <p>Du Sablon</p>
-                    </a>
+                    <p>Du Sablon</p>
                     <h2>€ ${bracelet_product.unitPrice}</h2>
-                    <button class="buy_btn">ACHETER</button>
+                    <a href="/html/detailproduit.html?id=${bracelet_product.id}"><button class="buy_btn">ACHETER</button></a>
                 </div>
             </div>
         `;
