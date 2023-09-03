@@ -609,13 +609,16 @@ hr {
 .panier-table th {
     border: 1.5px solid black;
     min-width: 100px;
+    padding: 10px;
     text-align: center;
+    font-size: larger;
 }
 
 .panier-table td {
     max-width: 200px;
     border: 1.5px solid black;
     text-align: center;
+    padding: 10px;
 }
 
 .panier-table .delete {
@@ -627,6 +630,9 @@ hr {
 .cart_product {
     font-weight: 600;
 }
+.cart_product .total_price {
+    font-weight: bold;
+}
 
 tfoot {
     font-weight: bold;
@@ -637,6 +643,7 @@ tfoot {
     border: none;
     text-align: center;
     font-size: larger;
+    padding-top: 30px;
 }
 
 .panier-table input {
