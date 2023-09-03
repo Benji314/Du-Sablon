@@ -130,7 +130,7 @@ function getProductIdFromUrl() {
 
 const productId = getProductIdFromUrl(); */
 
-const productId = 5; 
+const productId = 1; 
 
 fetch('/json/products.json')
     .then((response) => response.json())
