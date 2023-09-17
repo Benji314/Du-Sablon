@@ -70,10 +70,10 @@ nav ul {
 /***************************************************
 ***************************************************/
 
-/* .the_base{
+ .the_base{
     border: 1px solid red;
     min-height: 50px;
-} */
+} 
 
 .row_class {
     /* border: 1px solid blue; */
@@ -105,7 +105,7 @@ nav ul {
 .main-nav i {
     color: grey;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .main-nav i:hover {
@@ -630,6 +630,7 @@ hr {
 .cart_product {
     font-weight: 600;
 }
+
 .cart_product .total_price {
     font-weight: bold;
 }
@@ -674,7 +675,7 @@ tfoot {
 /* .cart_product input{
     font-weight: 600;
 } */
-.continu_shopping a{
+.continu_shopping a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1391,16 +1392,17 @@ tfoot {
     background-color: #ddd;
 }
 
-.born_input2{
+.born_input2 {
     flex-basis: 33.33333333333%;
 }
 
-.born_input2 select{
+.born_input2 select {
     min-width: 100%;
     min-height: 30px;
     border-top: none;
     background-color: #ddd;
 }
+
 /***************************************************
 *******************              ******************/
 /****************  MES COMMANDES  ******************
@@ -1432,4 +1434,3 @@ tfoot {
 .user_order a:hover {
     text-decoration: none;
 }
-
