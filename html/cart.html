@@ -28,17 +28,22 @@
 
     <header>
 
-        <div class="container the_base">
+        <div class="container-lg the_base">
 
             <div class="row row_class">
-                <div class="col-md-4 offset-md-4 col_class">
+                <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col_class">
                     <a href="/html/home.html"><img class="logo_top " src="/img/DuSablonLogoZoom.png" alt=""></a>
                 </div>
 
-                <div class="col-md-1 offset-md-3 col_class">
-                    <nav class="main-nav flex">
-                        <a href="/html/profile.html"><i class="fa-regular fa-circle-user"></i></a>
-                    </nav>
+                <div class="col-2 col-md-2 offset-md-1 col-lg-2 offset-lg-2 mt-3 col_class">
+                    <div class="row">
+                        <div class="col-12 mt-4 col-md-6 main-nav">
+                            <a href="/html/account.html"><i class="fa-regular fa-circle-user"></i></a>
+                        </div>
+                        <!-- <div class="col-12 mx-auto mt-4 col-md-6 main-nav">
+                            <a href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                        </div> -->
+                    </div>
                 </div>
             </div>
 
@@ -52,7 +57,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-1 col_class">
+                <div class="col-md-1 col_class d-lg-block d-none">
                     <nav class="main-nav-menu">
                         <ul class="flex nav_search">
                             <li><span class="vertical-line"></span></li>
@@ -68,21 +73,21 @@
     </header>
 
     <main>
-        <div class="container the_base">
+        <div class="container-md the_base">
 
             <div class="row row_class">
-                <div class="col-md-2 offset-md-5 col_class cart_title">
+                <div class="col_class cart_title">
                     <h1>PANIER</h1>
                 </div>
             </div>
 
             <div class="row row_class">
-                <div class="col-md-6 offset-md-3 col_class">
+                <div class="col_class table-responsive">
                     <table class="panier-table" id="cart">
                         <thead>
                             <tr>
                                 <th>Produit</th>
-                                <th>Nom</th>
+                                <th class="d-none d-sm-table-cell">Nom</th>
                                 <th>Prix</th>
                                 <th>Quantité</th>
                                 <th>Total</th>
@@ -113,15 +118,15 @@
                                 </td>
                             </tr> -->
                             <tr class="cart_foot">
-                                <td colspan="4">Total</td>
-                                <td class="total_cart">-</td>
+                                <td colspan="3">Total</td>
+                                <td class="total_cart" colspan="3">-</td>
                             </tr>
                         </tfoot>
                     </table>
-
                 </div>
+
                 <div class="row row_class">
-                    <div class="col-md-4 offset-md-5 col_class payment_button">
+                    <div class="col_class payment_button">
                         <button id="confirm-command">Procéder à l'achat</button>
                     </div>
                 </div>
@@ -130,7 +135,7 @@
 
 
             <div class="row row_class">
-                <div class="col-md-4 offset-md-4 col_class continu_shopping">
+                <div class="col_class continu_shopping">
                     <a href="/html/home.html">
                         <i class="fa-solid fa-arrow-left"></i>
                         <h1>CONTINUER MES ACHATS</h1>
@@ -142,15 +147,15 @@
 
 
             <div class="row row_class three_arguments">
-                <div class="col-md-3 offset-md-1 col_class arguments_div">
+                <div class="col-12 col-md-3 offset-md-1 col_class arguments_div">
                     <i class="fa-solid fa-truck-fast"></i>
                     <h1>LIVRAISON OFFERTE</h1>
                 </div>
-                <div class="col-md-4 col_class arguments_div">
+                <div class="col-12 col-md-4 col_class arguments_div">
                     <i class="fa-solid fa-gift"></i>
                     <h1>EMBALLAGES CADEAUX</h1>
                 </div>
-                <div class="col-md-3 col_class arguments_div">
+                <div class="col-12 col-md-3 col_class arguments_div">
                     <i class="fa-solid fa-right-left"></i>
                     <h1>RETOUR FACILE</h1>
                 </div>
@@ -168,7 +173,7 @@
 
             <div class="row row_class">
 
-                <div class="col-md-8 offset-md-2 col_class">
+                <div class="col-12 col-md-8 offset-md-2 col_class">
                     <hr>
                     <div class="reseaux">
                         <h1>NOUS SUIVRE</h1>
@@ -192,7 +197,7 @@
             </div>
 
             <div class="row row_class">
-                <div class="col-md-5 offset-md-1 col_class ">
+                <div class="col-10 offset-1 col-md-5 offset-md-1 col_class">
                     <div class="service_client">
                         <h1>SERVICE CLIENT</h1>
                         <a href="">
@@ -216,7 +221,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-5 col_class">
+                <div class="col-10 offset-1 mt-5 col-md-5 mt-md-0 col_class">
                     <div class="service_client">
                         <h1>LEGAL ET CONFIDENTIALITE</h1>
                         <a href="">
@@ -240,7 +245,7 @@
         </div>
 
         <div class="row row_class_footer">
-            <div class="col-md-4 offset-md-4 col_class">
+            <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col_class">
                 <a href=""><img class="logo_top " src="/img/DuSablonLogoZoom2.png" alt=""></a>
             </div>
         </div>

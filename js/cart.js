@@ -76,13 +76,13 @@ function generateCartProductsHtml(cart_products) {
         tbody.innerHTML += `
             <tr class="cart_product">
                 <td><a href=""><img src="${cart_product.path_img}" alt=""></a></td>
-                <td>${cart_product.name}</td>
+                <td class="d-none d-sm-table-cell">${cart_product.name}</td>
                 <td class="price_unit" data-price="${cart_product.unitPrice}">${cart_product.unitPrice} €</td>
                 <td class="quantity">
                     <input type="number" value="${cart_product.quantity}"/>
                 </td>
                 <td class="total_price"></td>
-                <td class="delete"><button class="btn"><i class="fa-regular fa-square-minus"></i></button></td>
+                <td class="delete mt-5 d-none d-md-block"><button class="btn"><i class="fa-regular fa-square-minus"></i></button></td>
             </tr>
         `
     })

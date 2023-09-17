@@ -647,15 +647,15 @@ tfoot {
 }
 
 .panier-table input {
-    max-width: 40px;
+    max-width: 38px;
     text-align: center;
     border: none;
 }
 
-.payment_button {
+.payment_button{
+    display: flex;
     justify-content: center;
 }
-
 #confirm-command {
     min-height: 50px;
     margin-top: 100px;
