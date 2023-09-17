@@ -29,18 +29,22 @@
 
     <header>
 
-        <div class="container the_base">
+        <div class="container-md the_base">
 
             <div class="row row_class">
-                <div class="col-md-4 offset-md-4 col_class">
+                <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col_class">
                     <a href="/html/home.html"><img class="logo_top " src="/img/DuSablonLogoZoom.png" alt=""></a>
                 </div>
 
-                <div class="col-md-2 offset-md-2 col_class">
-                    <nav class="main-nav flex">
-                        <a href=""><i class="fa-regular fa-circle-user"></i></a>
-                        <a href="/html/cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
-                    </nav>
+                <div class="col-2 col-md-2 offset-md-1 col-lg-2 offset-lg-2 mt-3 col_class">
+                    <div class="row">
+                        <div class="col-12 mt-4 col-md-6 main-nav">
+                            <a href="/html/account.html"><i class="fa-regular fa-circle-user"></i></a>
+                        </div>
+                        <div class="col-12 mx-auto mt-4 col-md-6 main-nav">
+                            <a href="/html/cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -54,7 +58,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-1 col_class">
+                <div class="col-md-1 col_class d-lg-block d-none">
                     <nav class="main-nav-menu">
                         <ul class="flex nav_search">
                             <li><span class="vertical-line"></span></li>
@@ -70,18 +74,18 @@
     <main>
 
         <div class="row row_class">
-            <div class="col-md-5 offset-md-1 col_class create_account_div">
+            <div class="col-10 offset-1 col-xl-5 offset-xl-1 col_class create_account_div border-end border-5 border-white">
                 <div class="register">
                     <h1>déjà inscrit(e) ?</h1>
                     <p>Si vous êtes déjà inscrit(e) chez Du Sablon, veuillez vous connecter ici :</p>
                     <div class="connection_form">
                         <form id="connection_form_data">
                             <h2>Adresse email *</h2>
-                            <div class="email_div">
+                            <div class="email_div overflow-hidden">
                                 <input data-val-required="Veuillez renseigner votre adresse email" id="profile_email" placeholder required="required" type="text" value="benjaminperreau1@gmail.com">
                             </div>
                             <h2>Mot de passe *</h2>
-                            <div class="email_div">
+                            <div class="email_div overflow-hidden">
                                 <input data-val-required="Le mot de passe est obligatoire" id="profile_password" placeholder required="required" type="password" value="benjaminperreau1@gmail.com">
                             </div>
                             <a href="" id="forgot_password"><p>Vous avez oublié votre mot de passe ?</p></a>
@@ -91,7 +95,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 col_class create_account_div">
+            
+            <div class="col-10 offset-1 col-xl-5 offset-xl-0 col_class create_account_div">
                 <div class="create_account">
                     <h1>créez votre compte</h1>
                     <p>Inscrivez-vous pour profiter des avantages de votre compte Du Sablon :</p>
@@ -113,11 +118,11 @@
     </main>
 
     <footer>
-        <div class="container the_base">
+        <div class="container-md the_base">
 
             <div class="row row_class">
 
-                <div class="col-md-8 offset-md-2 col_class">
+                <div class="col-12 col-md-8 offset-md-2 col_class">
                     <hr>
                     <div class="reseaux">
                         <h1>NOUS SUIVRE</h1>
@@ -141,7 +146,7 @@
             </div>
 
             <div class="row row_class">
-                <div class="col-md-5 offset-md-1 col_class ">
+                <div class="col-10 offset-1 col-md-5 offset-md-1 col_class">
                     <div class="service_client">
                         <h1>SERVICE CLIENT</h1>
                         <a href="">
@@ -165,7 +170,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-5 col_class">
+                <div class="col-10 offset-1 mt-5 col-md-5 mt-md-0 col_class">
                     <div class="service_client">
                         <h1>LEGAL ET CONFIDENTIALITE</h1>
                         <a href="">
@@ -189,7 +194,7 @@
         </div>
 
         <div class="row row_class_footer">
-            <div class="col-md-4 offset-md-4 col_class">
+            <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col_class">
                 <a href=""><img class="logo_top " src="/img/DuSablonLogoZoom2.png" alt=""></a>
             </div>
         </div>
